@@ -39,7 +39,7 @@ GameCloud是一个开放的、适合于RPG Maker或其它单机（伪网络？�
 
 ## 简易搭建流程
 
-详见 INSTALL.md
+详见 [INSTALL.md](https://github.com/oott123/gamecloud/blob/master/README.md)
 
 ## 演示
 
