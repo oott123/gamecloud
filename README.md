@@ -1,6 +1,6 @@
 #GameCloud
 
-RM平台在线CDKEY解决方案
+简易的RM平台在线CDKEY解决方案
 
 ## GameCloud是什么
 
@@ -40,3 +40,7 @@ GameCloud是一个开放的、适合于RPG Maker或其它单机（伪网络？�
 ## 简易搭建流程
 
 详见 INSTALL.md
+
+## 演示
+
+[范例工程下载](http://pan.baidu.com/share/link?shareid=448229&uk=822553734) - [在线页面演示](http://3.gamecloudemo.duapp.com/) - [后台登录：demo/demo](http://3.gamecloudemo.duapp.com/index.php/modify/login)
