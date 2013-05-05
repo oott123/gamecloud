@@ -3,10 +3,10 @@ INSERT IGNORE INTO `pre_adminauth` VALUES('demo', 'addd204d606c9aac9f3e80853cd1c
 INSERT IGNORE INTO `pre_adminauth` VALUES('admin', 'addd204d606c9aac9f3e80853cd1c335');
 CREATE TABLE IF NOT EXISTS `pre_cdkey` (  `id` int(11) NOT NULL AUTO_INCREMENT,  `key` int(11) NOT NULL,  `pwd` int(11) NOT NULL,  `type` text NOT NULL,  `tid` int(11) NOT NULL,  `amount` int(11) NOT NULL,  `comment` longtext NOT NULL,  PRIMARY KEY (`id`)) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ;
 CREATE TABLE IF NOT EXISTS `pre_config` (  `name` text NOT NULL,  `value` longtext NOT NULL) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-INSERT IGNORE INTO `pre_config` VALUES('site_name', 'ÔÆÖÐÓÎÏ·');
-INSERT IGNORE INTO `pre_config` VALUES('copyright', 'ÔÆÖÐË­¼Ä½õÊéÀ´£¬Ñã×Ö»ØÊ±£¬ÔÂÂúÎ÷Â¥¡£');
-INSERT IGNORE INTO `pre_config` VALUES('index', 'ÔÆÖÐÓÎÏ·ÖÂÁ¦ÓÚ´òÔìRMÆ½Ì¨µÄÍøÉÏÉÌ³Ç¡£<br />');
+INSERT IGNORE INTO `pre_config` VALUES('site_name', 'äº‘ä¸­æ¸¸æˆ');
+INSERT IGNORE INTO `pre_config` VALUES('copyright', 'äº‘ä¸­è°å¯„é”¦ä¹¦æ¥ï¼Œé›å­—å›žæ—¶ï¼Œæœˆæ»¡è¥¿æ¥¼ã€‚');
+INSERT IGNORE INTO `pre_config` VALUES('index', 'äº‘ä¸­æ¸¸æˆè‡´åŠ›äºŽæ‰“é€ RMå¹³å°çš„ç½‘ä¸Šå•†åŸŽã€‚<br />');
 CREATE TABLE IF NOT EXISTS `pre_items` (  `id` int(11) NOT NULL,  `name` text NOT NULL) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 CREATE TABLE IF NOT EXISTS `pre_pages` (  `id` int(11) NOT NULL AUTO_INCREMENT,  `title` text NOT NULL,  `content` longtext NOT NULL,  `order` tinyint(4) NOT NULL,  PRIMARY KEY (`id`),  KEY `id` (`id`)) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ;
-INSERT IGNORE INTO `pre_pages` VALUES(1, '¹ØÓÚÎÒÃÇ', 'ºÇºÇ¹þ¹þ~<br />', 0);
-INSERT IGNORE INTO `pre_pages` VALUES(2, 'ÁªÏµÎÒÃÇ', 'aaaatin@qq.comÊÇ¸öºÃÖ÷Òâ¡£', 1);
+INSERT IGNORE INTO `pre_pages` VALUES(1, 'å…³äºŽæˆ‘ä»¬', 'å‘µå‘µå“ˆå“ˆ~<br />', 0);
+INSERT IGNORE INTO `pre_pages` VALUES(2, 'è”ç³»æˆ‘ä»¬', 'aaaatin@qq.comæ˜¯ä¸ªå¥½ä¸»æ„ã€‚', 1);
