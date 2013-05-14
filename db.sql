@@ -1,5 +1,4 @@
 CREATE TABLE IF NOT EXISTS `pre_adminauth` ( `username` text NOT NULL,`password` text NOT NULL) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-INSERT IGNORE INTO `pre_adminauth` VALUES('demo', 'addd204d606c9aac9f3e80853cd1c335');
 INSERT IGNORE INTO `pre_adminauth` VALUES('admin', 'addd204d606c9aac9f3e80853cd1c335');
 CREATE TABLE IF NOT EXISTS `pre_cdkey` (  `id` int(11) NOT NULL AUTO_INCREMENT,  `key` int(11) NOT NULL,  `pwd` int(11) NOT NULL,  `type` text NOT NULL,  `tid` int(11) NOT NULL,  `amount` int(11) NOT NULL,  `comment` longtext NOT NULL,  PRIMARY KEY (`id`)) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ;
 CREATE TABLE IF NOT EXISTS `pre_config` (  `name` text NOT NULL,  `value` longtext NOT NULL) ENGINE=MyISAM DEFAULT CHARSET=utf8;
